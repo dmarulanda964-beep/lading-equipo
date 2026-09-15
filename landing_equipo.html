@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CaféTech - Landing Page</title>
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f5f1eb;
+        color: #3e2723;
+    }
+
+    section {
+        padding: 60px 20px;
+        text-align: center;
+    }
+
+    #inicio {
+        background-color: #6f4e37;
+        color: white;
+        min-height: 300px;
+    }
+
+    #inicio h1 {
+        font-size: 45px;
+        margin-bottom: 20px;
+    }
+
+    #inicio p {
+        font-size: 22px;
+    }
+
+    #servicios {
+        background-color: #fff;
+    }
+
+    #servicios h2 {
+        font-size: 32px;
+        margin-bottom: 30px;
+    }
+
+    .servicios-container {
+        display: flex;
+        justify-content: center;
+        gap: 25px;
+        flex-wrap: wrap;
+    }
+
+    .servicio {
+        background-color: #f5f1eb;
+        width: 250px;
+        padding: 30px;
+        border-radius: 15px;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    }
+
+    .servicio h3 {
+        margin-bottom: 15px;
+        font-size: 22px;
+    }
+
+    #contacto {
+        background-color: #3e2723;
+        color: white;
+    }
+</style>
+</head>
+
+<body>
+
+    <!-- INICIO -->
+    <section id="inicio">
+        <h1>CaféTech</h1>
+        <p>El sabor del café y la tecnología en un solo lugar.</p>
+    </section>
+
+    <!-- SERVICIOS -->
+    <section id="servicios">
+        <h2>Nuestros Servicios</h2>
+
+        <div class="servicios-container">
+
+            <div class="servicio">
+                <h3>☕ Café Especial</h3>
+                <p>Café colombiano de alta calidad preparado al momento.</p>
+            </div>
+
+            <div class="servicio">
+                <h3>💻 Zona Tech</h3>
+                <p>Espacio cómodo con WiFi para estudiar, trabajar o programar.</p>
+            </div>
+
+            <div class="servicio">
+                <h3>🥐 Repostería</h3>
+                <p>Deliciosos productos de repostería para acompañar tu café.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section id="contacto">
+        <h2>Contáctanos</h2>
+        <br>
+        <p>📍 Medellín, Antioquia</p>
+        <p>📞 300 123 4567</p>
+        <p>📱 Instagram: @cafetech</p>
+    </section>
+
+</body>
+</html>
